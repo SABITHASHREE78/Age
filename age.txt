@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>name:<input type="text" name="firstname" id="fname"></p>
+    <p>age:<input type="number" age="age" id="age"></p>
+    <button onclick="myfunction()">submit</button>
+    <script>
+        function myfunction(){
+            const fname=document.getElementById('fname').value;
+            const age=document.getElementById('age').value;
+            if(age>18){
+                document.write("yes"+username+"can drive");
+            }
+            else{
+                document.write("no"+username+"can not drive");
+            }
+        }
+    </script>
+</body>
+</html>
